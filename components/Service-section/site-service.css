@@ -1,0 +1,128 @@
+/* service */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.service{
+    width:100%;
+    background-color: #f6f4f9;
+    padding: 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.service__cover{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../images/blob-primary.png);
+    background-size: contain;
+    background-position: center;    
+    background-repeat: no-repeat;
+    transition: all .5s;
+    margin-bottom: 1.6rem;
+}
+
+.service__title{
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.service__text{
+    line-height: 1.5;
+    color: #726D7B;
+    margin-bottom: .5rem;
+    transition: all .5s;
+}
+
+.service__link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 10px;
+    width: 30px;
+    height: 50px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 2rem;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all .5s;
+}
+
+.service__link i{
+    color: #333;
+}
+
+.service:hover{
+    color: #fff;
+    background-color: #6222CC;
+}
+
+.service:hover .service__text{
+    color: #fff;
+}
+
+.service:hover .service__cover{
+    background: url(../../images/blob-secondary.png);
+    background-size: contain;
+    background-position: center;    
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+.service:hover .service__link {
+    bottom: -44px;
+    margin-top: 1rem;
+}
+
+.service__link:hover{
+    background-color: #ffa561;
+}
+
+/* responsive */
+
+@media screen and (max-width:1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .container {
+        max-width: 100%;
+    }
+}

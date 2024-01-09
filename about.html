@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+    <title>About | Digital Agency Website</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="loader__container">
+        <span class="loader"></span>
+    </div>
+
+    <div class="site__content hidden">
+        <nav>
+            <div class="container">
+                <site-navbar target="about"></site-navbar>
+            </div>
+        </nav>
+    
+        <section class="header__sect">
+            <site-header  title="About" text="Home / Pages / About"></site-header></site-header>
+        </section>
+    
+        <main>
+            <section class="feature__sect">
+                <div class="container">
+                    <site-feature></site-feature>
+                </div>
+            </section>
+            
+            <section class="about__sect">
+                <div class="container">
+                    <about-us></about-us>
+                </div>
+            </section>
+            
+            <section class="options__sect">
+                <img src="images/blob-top-left.png" class="blob__top left" alt="">
+                <img src="images/blob-top-right.png" class="blob__top right" alt="">
+                <img src="images/blob-center.png" class="blob__center" alt="">
+                <div class="container">
+                    <our-option></our-option>
+                </div>
+                <img src="images/blob-bottom-left.png" class="blob__bottom left" alt="">
+                <img src="images/blob-bottom-right.png" class="blob__bottom right" alt="">
+            </section>
+    
+            <section class="our__team-sect">
+                <div class="container">
+                    <h3 class="section__title"><span></span> Our Team <span></span></h3>
+                    <h2 class="section__desc">Our Team Members</h2>
+    
+                    <our-team></our-team>
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            <div class="container">
+                <site-footer></site-footer>
+            </div>
+        </footer>
+    </div>
+
+    
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

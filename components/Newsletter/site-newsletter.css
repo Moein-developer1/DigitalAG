@@ -1,0 +1,47 @@
+.newsletter{
+    text-align: center;    
+}
+
+.newsletter__desc{
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.newsletter__text{
+    max-width: 30rem;
+    margin: 0 auto 2rem;
+    line-height: 1.5;
+}
+
+.newsletter__input-wraper{
+    max-width: 30rem;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem 1rem;
+    border-radius: 2rem;
+}
+
+.newsletter__input-wraper input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    height: 100%;
+}
+
+.newsletter__input-wraper button{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: #6222CC;
+    transition: all .5s;
+}
+
+.newsletter__input-wraper button:hover{
+    color: #333;
+}

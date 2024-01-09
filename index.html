@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+    <title>Home | Digital Agency website</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    
+
+    <div class="loader__container">
+        <span class="loader"></span>
+    </div>
+    
+    <div class="site__content hidden">
+            <nav>
+                <div class="container">
+                    <site-navbar target="home"></site-navbar>
+                </div>
+            </nav>
+
+            <header>
+                <img src="images/blob-top-left.png" class="bolb__top left" alt="">
+                <img src="images/blob-top-right.png" class="bolb__top right" alt="">
+                <img src="images/blob-center.png" class="bolb__center" alt="">
+                <div class="container">
+                    <div class="header">
+                        <div class="header__content">
+                            <h1 class="content__title">A Digital Agency Of Inteligents & Creative People</h1>
+                            <p class="content__text">Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit justo amet ipsum vero ipsum clita lorem</p>    
+                            <div class="content__link-wraper">
+                                <a href="#" class="content__link" style="--color:orange">Read More</a>
+                                <a href="#" class="content__link" style="--color:white">Contact Us</a>
+                            </div>     
+                        </div>
+                        <div class="header__cover">
+                            <img src="images/hero.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <img src="images/blob-bottom-left.png" class="bolb__bottom left" alt="">
+                <img src="images/blob-bottom-right.png" class="bolb__bottom right" alt="">
+            </header>
+        
+            <main>
+                <section class="feature__sect">
+                    <div class="container">
+                        <site-feature></site-feature>
+                    </div>
+                </section>  
+                
+                <section class="about__sect">
+                    <div class="container">
+                        <about-us></about-us>
+                    </div>
+                </section>
+        
+                <section class="options__sect">
+                    <img src="images/blob-top-left.png" class="blob__top left" alt="">
+                    <img src="images/blob-top-right.png" class="blob__top right" alt="">
+                    <img src="images/blob-center.png" class="blob__center" alt="">
+                    <div class="container">
+                        <our-option></-option>
+                    </div>
+                    <img src="images/blob-bottom-left.png" class="blob__bottom left" alt="">
+                    <img src="images/blob-bottom-right.png" class="blob__bottom right" alt="">
+                </section>
+        
+                <section class="services__section">
+                    <div class="container">
+                        <h3 class="section__title"><span></span> Our Services <span></span></h3>
+                        <h2 class="section__desc">What Solutions We Provide</h2>
+        
+                        <div class="services">
+                            <our-service icon="fa fa-search fa-2x" title="SEO Optimization"></our-service>
+                            <our-service icon="fa fa-laptop-code fa-2x" title="Web Design"></our-service>
+                            <our-service icon="fab fa-facebook-f fa-2x" title="Social Media Marketing"></our-service>
+                            <our-service icon="fa fa-mail-bulk fa-2x" title="Email Marketing"></our-service>
+                            <our-service icon="fa fa-thumbs-up fa-2x" title="PPC Advertising"></our-service>
+                            <our-service icon="fab fa-android fa-2x" title="App Development"></our-service>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="newsletter__sect">
+                    <img src="images/blob-top-left.png" class="blob__top left" alt="">
+                    <img src="images/blob-top-right.png" class="blob__top right" alt="">
+                    <img src="images/blob-center.png" class="blob__center" alt="">
+                    <div class="container">
+                        <h3 class="section__title"><span></span> NEWSLETTER <span></span></h3>
+                        <news-letter></news-letter>
+                    </div>
+                    <img src="images/blob-bottom-left.png" class="blob__bottom left" alt="">
+                    <img src="images/blob-bottom-right.png" class="blob__bottom right" alt="">
+                </section>
+        
+                <section class="projects__sect">
+                    <div class="container">
+                        <h3 class="section__title"><span></span> OUR PROJECTS <span></span></h3>
+                        <h2 class="section__desc">Recently Completed Projects</h2>
+        
+                        <our-project></our-project>
+                    </div>
+                </section>
+        
+                <section class="our__team-sect">
+                    <div class="container">
+                        <h3 class="section__title"><span></span> Our Team <span></span></h3>
+                        <h2 class="section__desc">Our Team Members</h2>
+        
+                        <our-team></our-team>
+                    </div>
+                </section>
+            </main>
+            
+            <footer>
+                <div class="container">
+                    <site-footer></site-footer>
+                </div>
+            </footer>
+        </div>
+
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

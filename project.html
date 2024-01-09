@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+    <title>Project | Digital Agency Website</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="loader__container">
+        <span class="loader"></span>
+    </div>
+
+    <div class="site__content hidden">
+        <nav>
+            <div class="container">
+                <site-navbar target="project"></site-navbar>
+            </div>
+        </nav>
+        
+        <section class="header__sect">
+            <site-header  title="Project" text="Home / Pages / Project"></site-header></site-header>
+        </section>
+    
+        <main>
+            <section class="projects__sect">
+                <div class="container">
+                    <h3 class="section__title"><span></span> OUR PROJECTS <span></span></h3>
+                    <h2 class="section__desc">Recently Completed Projects</h2>
+    
+                    <our-project></our-project>
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            <div class="container">
+                <site-footer></site-footer>
+            </div>
+        </footer>
+    </div>
+
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

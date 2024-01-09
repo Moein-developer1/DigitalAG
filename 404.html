@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+    <title>404 | Digital Agency website</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    
+    <div class="loader__container">
+        <span class="loader"></span>
+    </div>
+
+    <div class="site__content hidden">
+        <nav>
+            <div class="container">
+                <site-navbar target="pages" subTarget="not-found"></site-navbar>
+            </div>
+        </nav>
+    
+        <section class="header__sect">
+            <site-header  title="Not Found" text="Home / Pages / 404"></site-header></site-header>
+        </section>
+    
+        <main>
+            <section class="not__found-sect">
+                <div class="container">
+                    <div class="not__found-wraper">
+                        <div class="not__found">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                            <h2 class="not__found-title">404</h2>
+                            <h3 class="not__found-desc">Page Not Found</h3>
+                            <p class="not__found-text">We’re sorry, the page you have looked for does not exist in our website! Maybe go to our home page or try to use a search?</p>
+                            <div class="link__wraper">
+                                <a href="index.html" class="not__found-link">Go Back To Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            <div class="container">
+                <site-footer></site-footer>
+            </div>
+        </footer>
+    </div>
+
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
