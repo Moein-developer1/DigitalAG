@@ -34,4 +34,4 @@ const loadPage = () => {
 
 // preloader actions
 
-window.addEventListener('load' , loadPage)
+window.addEventListener('DOMContentLoaded' , loadPage)
